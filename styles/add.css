@@ -1,0 +1,93 @@
+* {
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #dddded;
+    font-family: 'Times New Roman', Times, serif;
+    color: #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+div {
+    border: 1px solid black;
+    border-radius: 10px;
+    box-shadow: 0px 4px 6px ;
+    padding: 100px 80px;
+    text-align: center;
+}
+
+.title {
+    color: black;
+    margin-top: -80px;
+    font-size: 40px;
+}
+
+form label {
+    font-size: 15px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    text-align: left;
+    display: block;
+}
+
+form input , form select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    font-size: 15px;
+}
+
+button {
+    background-color: #333;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    padding: 10px 15px;
+    font-size: 20px;
+    border: white;
+    cursor: pointer;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+button:hover {
+    background-color: red;
+    color: black;
+}
+
+a {
+    display: inline-block;
+    margin-top: 20px;
+    color: black;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* responsive design  */
+
+@media (max-width: 500px) {
+    div {
+        width: 90%;
+        padding: 15px;
+    }
+
+    button {
+        width: 100%;
+    }
+}
